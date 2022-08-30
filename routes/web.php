@@ -136,3 +136,15 @@ Route::get('/real-finish',function (\Illuminate\Http\Request $request){
 });
 
 require __DIR__.'/auth.php';
+
+Route::get('/reset',function (\Illuminate\Http\Request $request){
+    $answer = \App\Models\QuizResponse::where(['ip' => $request->ip()])->first();
+    if($answer->email == null)
+    {
+        $answer->delete();
+        return redirect()->to('/');
+    }
+    else{
+        return redirect()->route('already_entered');
+    }
+});

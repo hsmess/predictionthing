@@ -21,9 +21,9 @@ defineProps({
                         <div class="hidden md:block">
                             <div class="ml-10 flex items-baseline space-x-4">
                                 <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-                                <a href="#" class="bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium" aria-current="page">Predict</a>
+                                <a href="/" class="bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium" aria-current="page">Predict</a>
 
-                                <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">View live scores</a>
+                                <a href="https://tjing.se/event/e782b52a-9d5f-45b7-a95e-d0d83edf000b/results" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">View live scores</a>
                             </div>
                         </div>
                     </div>
@@ -57,9 +57,9 @@ defineProps({
             <div class="md:hidden" id="mobile-menu">
                 <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
                     <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-                    <a href="#" class="bg-gray-900 text-white block px-3 py-2 rounded-md text-base font-medium" aria-current="page">Predict</a>
+                    <a href="/" class="bg-gray-900 text-white block px-3 py-2 rounded-md text-base font-medium" aria-current="page">Predict</a>
 
-                    <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">View Live Scores</a>
+                    <a href="https://tjing.se/event/e782b52a-9d5f-45b7-a95e-d0d83edf000b/results" class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">View Live Scores</a>
 
                 </div>
             </div>
@@ -105,7 +105,7 @@ defineProps({
                             <p class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">100 Holes of Disc Golf. 5 Courses. Par 314. Total Distance: 9505m</p>
                             <p class="mt-3">
                                 <ul>
-                                    <li>  1) Donate at least £5 to our <a href="https://www.justgiving.com/fundraising/great-discgolf-race">JustGiving Campaign</a> <br>
+                                    <li>  1) Donate at least £5 to our <a class=" text-base text-red-500 " href="https://www.justgiving.com/fundraising/great-discgolf-race">JustGiving Campaign</a> <br>
                                     </li>
                                     <li>   2) Predict below on each of the 5 categories
                                     </li>

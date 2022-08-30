@@ -101,7 +101,8 @@ defineProps({
                                 <span class="block xl:inline">Harry, Noah, Adam, Shane and Jamie take on fundraising for </span>
                                 <span class="block text-indigo-600 xl:inline">Prostate Cancer UK</span>
                             </h1>
-                            <p class="mt-3 text-base text-red-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">You have already entered! (I think!)</p>
+                            <p class="mt-3 text-base text-red-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">You have already entered!</p>
+                            <p class="mt-3 text-base text-red-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">To override and clear your past entry and start again, <a href="/reset" style="color: green">click here.</a> Note, if you already entered your email address, this will not work.</p>
 
                         </div>
                     </main>
